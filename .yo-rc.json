@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "shop",
+    "packageName": "com.lieubv.samples",
+    "packageFolder": "com/lieubv/samples",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "OWNjZjRkNjA3NDllMzcxZDUyZGY2NDM1MzgyOWFlMTRmM2VjZjA5ZjM3ZThiYWYyNDFlYWU3MmYxOTYxZjA2N2RmYWMzZGU1MGFmN2ZlZTdkNTIwMzBmZDJlNzY4NTVhMTlkODNkMDE5MWQyZWY5NzExNjA5YjM3ZDBiNDNjNzQ=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "lieubv",
+  "repository-name": "shopRepository"
+}
